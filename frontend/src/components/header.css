@@ -20,6 +20,7 @@
   }
 
   .searchBar {
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,10 +30,10 @@
     border-radius: 28px;
     background-color: #f6f6f6;
     transition: background 0.25s;
+    box-shadow: 0 0 2px rgba(0,0,0,0.75);
   }
   .searchBar:focus-within{
-    background:#f1f1f1;
-    box-shadow: 0 0 2px rgba(0,0,0,0.75);
+    background:#e1e1e1;
   }
   #searchInput {
     width: 500px;
@@ -47,7 +48,19 @@
   }
   
   #searchInput::placeholder,
-  .search-icon  {
+  .search-icon1  {
     color: rgba(0,0,0,0.5);
     
+  }
+
+  .searchButton{
+    border-radius:20%;
+    background-color:transparent;
+  }
+  .searchButton:-moz-focus-inner{
+    border:0;
+  }
+  button,
+  button:hover{
+    outline:none !important;
   }

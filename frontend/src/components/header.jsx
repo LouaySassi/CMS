@@ -14,13 +14,14 @@ function Header() {
       </div>
 
       <div className="searchBar">
-      <span className="search-icon material-symbols-outlined">search</span>
+      <span className="search-icon1 material-symbols-outlined">search</span>
         <input
           type='search'
           id="searchInput"
           placeholder="Search here..."
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+        <button className='searchButton' ><span class="search-icon2 material-symbols-outlined">send</span></button>
       </div>
     </div>
     </>
