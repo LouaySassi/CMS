@@ -1,0 +1,19 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+.contentContainer{
+    display:flex;
+    flex-direction: row;
+  }
+
+.leftSide{
+  width:55%;
+}
+
+.rightSide{
+  width:45%;
+}
